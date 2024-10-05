@@ -1,0 +1,206 @@
+❌ print()
+ 
+
+❌int()
+
+
+❌str()        " "
+
+ 
+❌bool()
+
+
+❌type()
+
+
+❌for i in range(start,stop,step):
+   print()
+
+
+❌if <=>:
+   print()
+elif <=>:
+   print()
+else:
+   print()
+ 
+
+❌i=0
+while i<5:
+    print(i)
+    i=i+1
+   
+  
+❌def my_function(vorodi_1,vorodi_2):      defined=معرفی
+    y= vorodi_1 * vorodi_2
+    y= y+2
+    y= y/2
+    return y
+ 
+y=my_function(2,3)
+
+print(y)
+
+
+❌adad_str=str(adad)
+
+for x in range(len(adad_str)):
+        if adad_str[x]=="5":                                          len = تعداد عناصر را بر میگرداند
+ 	    tedad = tedad + 1
+
+
+
+
+❌adam[1 or 2 or 3 or 4]:  
+
+
+❌x = abs(-7)
+print(x)
+
+
+❌x = min(5 ,15 ,25)
+y = max(5 ,15 ,25)
+
+
+❌import model
+
+
+❌import math
+math.sin(0)
+0
+
+❌import model as md
+
+❌pip install model                              pip = نصب
+
+❌file_1 = open("file.txt")
+print(file_1)
+
+
+❌file_2 = open("file,txt")
+file_2 = file.read()
+print(file_2)
+= majid
+
+
+❌import matplotlib.pyplot as plt
+
+
+❌plt.plot([1,2,3],[1,2,3])
+plt.sho()                      . تابع در پایتون گروهی از عبارت‌های مرتبط است که یک کار مشخص را انجام می‌دهند = functions        
+
+❌plt.plot([1,2,3],[1,2,3]."o")        بصورت نقطه نشون میده
+plt.sho()
+
+
+
+
+
+❌
+age = input()
+age2 = int(age) ** 2         =         تمرین          
+print(age2)
+❌
+
+
+
+
+❌import requests , json
+result = requests.get("https://google.com")                result = نتیحه
+print(result.status_code)
+
+
+
+
+❌try:
+      #code
+except:
+      print("error")
+
+
+
+❌pip install model
+
+
+
+❌print("hello", end=" ")
+print("salam")
+
+hello salam
+
+
+
+❌a = ["salam","hi","fana"]
+print(type(a))   =>  list
+
+print(a[0])    =>   salam
+
+
+❌a = [salam , hi , hey]
+print(a[0])    =>   salam
+
+import random 
+
+b = random.randint(a,b)
+
+print(b)    =>   salam or hi or hey
+
+
+
+❌import numpy as np
+array = a
+a = np.array({1,2,3,4,5})
+print(a.shap)  =>   تعداد 
+
+
+❌print(a[0:2+1])
+print(a.dtype)
+
+
+❌import nunpy as np
+import matplotlib.plot as plt
+
+a = np.array([1,2,3,4,5],[1,2,3,4,5])
+print(a.shape)                =>          ابعاد رو برمیگردونه
+
+
+
+❌from PIL import Image
+img = Image.open("test.jpg")
+img_arr = np.array(img)
+img_arr.shape
+
+
+❌import pyatougui as robot
+robot.sleep(x)
+robot.write("i love you" , interval = 0.25)
+robot.press("enter")
+
+
+
+
+❌import time 
+time.sleep(x)
+
+
+❌import pandas as pd
+df = pd.read_csv("file.csv")
+df.describe()
+df.head()      خلاصه
+df.loc[0]          معرفه اول
+df.["list 1"][50]
+
+
+❌import qrcod as qr
+img = qr.make(بزن تو نت بقیه کاربرداشو ببین)
+img.save("file.png")
+
+
+_____________________________________________________________________________ویدوو ماشین لرنینگ چهارم
+❌import pandas as pd
+import seaborn as sns            نمایش دیتا بصورت خطی
+sns.countplot(x = "out1" , data = df)
+
+plt.subplots(figsize = (9 , 9))
+sns.heatmap(df.corr() , annot = True)    مربوط به نمایش به صورت مربع مربع
+
