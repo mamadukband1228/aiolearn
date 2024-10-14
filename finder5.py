@@ -12,7 +12,7 @@ def finder5(adad):
 
 tedad_col = 0
 
-for i in range(15+1):
+for i in range(200):
     tedad_col = tedad_col + finder5(i)
 
 print(tedad_col)
